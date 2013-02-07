@@ -10,7 +10,7 @@ See TODO.md
 
 #Version
 
-1.1.3
+1.1.9
 
 # Browser compatibility
 
@@ -43,7 +43,15 @@ Add new validators in `parsley.extend.js` and minify it. No validators will be a
 
 ##Localization
 
-If file does not existe, create it into `ì18n/` directory with same synthax as others
+If file does not exist, create it into `ì18n/` directory with same syntax as others.  
+Reference file is French one! ;)
+
+##Integrations
+
+Create integration with other framework as a separate Github repo and send a pull request for including here.  
+Some integrations are
+
+* [Django](https://github.com/agiliq/django-parsley)
 
 ## Global
 
@@ -51,7 +59,7 @@ If file does not existe, create it into `ì18n/` directory with same synthax as 
 * add your changes to parsley.js
 * add / update tests to test suite (tests/index.html / tests/tests.js)
 * run tests (see above)
-* create new minified versions with minify script (see above)
+* create new minified versions with minify script (see above) (use next tag-dev as version. Ie: if 1.1.1, use 1.1.2-dev)
 * make a Pull Request!
 
 #Licence
